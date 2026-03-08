@@ -87,9 +87,7 @@ class DocsCrawler:
 
 def run_crawl():
     targets = [
-        ("https://fastapi.tiangolo.com/", "tiangolo.com"),
-        ("https://kubernetes.io/docs/home/", "kubernetes.io"),
-        ("https://python.langchain.com/docs/", "langchain.com"),
+        ("https://kubernetes.io/docs/home/", "kubernetes.io")
     ]
 
     all_docs = []
